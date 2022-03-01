@@ -1,4 +1,4 @@
-# SKO OTel Session
+# FY23-SKO OpenTelemetry Session
 
 This repository contains the Java application being used alongside the OpenTelemetry session at SKO-FY23. 
 
@@ -13,7 +13,7 @@ In order to participate in this exercise you will need...
 
 
 ## Step 1
-Clone this repository to your local machine with the command `Git git clone https://github.com/kidk/FY23SKO-OaC.git`
+Clone this repository to your local machine using `git clone`
 
 ## Step 2 
 Navigate into the directory you just created and Export your New Relic ingest key using the following command:
@@ -28,7 +28,7 @@ docker-compose up
 ```
 
 ## Step 4
-To generate data for this applicaiton, opena new terminal sheell, navigate to the proper directory and run the following command:
+To generate data for this applicaiton, opena new terminal sheell, navigate to the proper directory and run the command below. Note: be sure to update the command to include your ingest license key.
 ```shell
 ./load-generator.sh
 ```
