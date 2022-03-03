@@ -1,6 +1,6 @@
 # FY23-SKO OpenTelemetry Session
 
-This repository contains the Java application being used alongside the OpenTelemetry session at SKO-FY23. 
+This repository contains a simple Java application to calculate the nth number (between 1-90) in the Fibonacci sequence.
 
 The application in this exercise has been instrumented with OpenTelemetry. Follow the instructions below to run the app using Docker and view the data in New Relic One. 
 
