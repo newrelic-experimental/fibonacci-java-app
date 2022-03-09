@@ -16,7 +16,7 @@ In order to participate in this exercise you will need...
 Clone this repository to your local machine using `git clone`
 
 ## Step 2 
-Navigate into the directory you just created and Export your New Relic ingest key using the following command:
+Navigate into the directory you just created and Export your New Relic ingest license key using the command below. Note: be sure to update the command to include your ingest license key.
 ```shell
 export NEW_RELIC_API_KEY=<your_license_key>
 ```
@@ -28,7 +28,7 @@ docker-compose up
 ```
 
 ## Step 4
-To generate data for this applicaiton, opena new terminal sheell, navigate to the proper directory and run the command below. Note: be sure to update the command to include your ingest license key.
+Now that you have the applicaiton running on your device it is time to generate data for it, open a new terminal sheel, navigate to the proper directory and run the command below.
 ```shell
 ./load-generator.sh
 ```
