@@ -1,6 +1,6 @@
 FROM eclipse-temurin:11-jdk as base
-
-COPY ./ ./
+WORKDIR /app
+COPY ./ /app
 RUN ./gradlew bootJar
 
 FROM eclipse-temurin:11
